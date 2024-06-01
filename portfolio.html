@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Vicky's Personal Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/hope-star.gif" rel="icon">
+  <link href="assets/img/hope-star.gif" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i&subset=cyrillic" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+    <h1>Hi, I'm Vicky!</h1>
+    <h2>I am a student of Information Systems for Business</h2>
+    <a href="#portfolio" class="btn-get-started scrollto"><i class="bi bi-chevron-double-down"></i></a>
+  </section><!-- End Hero -->
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Personal Website</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html">About</a></li>
+          <li><a class="nav-link scrollto active" href="portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="contact.php">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio section-bg">
+    <div class="container">
+      <div class="section-title">
+        <h2>Portfolio</h2>
+        <p>These are the projects I completed for AFL</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-website">Website</li>
+            <li data-filter=".filter-desktop">Desktop Apps</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" id="portfolio-container"></div> <!-- This is where portfolio items will be populated -->
+
+    </div>
+  </section><!-- End Portfolio Section -->
+
+       <!-- ======= Footer ======= -->
+       <footer id="footer">
+        <div class="container">
+          <div class="credits">
+            <div class="social-links">
+              <a href="https://wa.me/6281238939034" class="whatsapp" style="margin: 5px"><i class="bi bi-whatsapp" style="font-size: 30px;"></i></a>
+              <a href="https://line.me/ti/p/6QylSSX2vz" class="line" style="margin: 5px;"><i class="bi bi-line" style="font-size: 30px;"></i></a>
+              <a href="https://instagram.com/vi.kyy" class="instagram" style="margin: 5px;"><i class="bi bi-instagram" style="font-size: 30px;"></i></a>
+              <a href="https://www.linkedin.com/in/tjok-istri-vicky-savitri-8024b62ba/" class="linkedin" style="margin: 5px;"><i class="bi bi-linkedin" style="font-size: 30px;"></i></a>
+            </div> 
+          </div>
+        </div>
+      </footer><!-- End  Footer -->
+
+
+  
+
+  <!-- Script for Portfolio -->
+  <script type="application/json" id="portfolio-data">
+    {
+      "portfolio": [
+        {
+          "title": "Personal Website - Homepage",
+          "category": "Website",
+          "image": "assets/img/web1.jpg",
+          "desc" : "The home page of my personal website is the first stop for visitors, offering a glimpse into my digital presence. It's created to fulfill the requirements of my Website and Development class. Through engaging content and thoughtful design, I aim to make a lasting impression on visitors while meeting academic objectives."
+        },
+        {
+          "title": "Personal Website - Contact Page",
+          "category": "Website",
+          "image": "assets/img/web2.jpg",
+          "desc" : "The Contact page acts as a dynamic hub for seamless connection between visitors and myself. Serving as a direct gateway to my digital presence, it offers multiple avenues for engagement, including my email address and LinkedIn profile. Additionally, visitors have the opportunity to send me direct messages."
+        },
+        {
+          "title": "Personal Website - About Page",
+          "category": "Website",
+          "image": "assets/img/web3.jpg",
+          "desc" : "The About page serves as a comprehensive showcase of my professional journey and personal attributes. Here, visitors can delve into a detailed overview of my skills, expertise, and other pertinent biographical information."
+        },
+        {
+          "title": "Florette's Onecore - Home Menu",
+          "category": "desktop",
+          "image": "assets/img/sad1.jpg",
+          "desc" : "The Home menu of Florette's Onecore UMKM desktop application acts as the nerve center, offering a comprehensive dashboard showcasing vital metrics and insights crucial for business operations. Within this intuitive interface, users gain instant access to real-time data on daily sales, top-performing menu items, active orders, and the status of completed or ongoing transactions."
+        },
+        {
+          "title": "Florette's Onecore - Order Menu",
+          "category": "desktop",
+          "image": "assets/img/sad2.jpg",
+          "desc" : "The Order menu in Florette's Onecore UMKM desktop application offers a convenient hub for managing menu items and processing orders efficiently. With a comprehensive menu list comprising a diverse range of food and drink options, users can easily navigate and select desired items. Intuitive filters for drinks and food streamline the selection process, enabling users to quickly find specific items."
+        },
+        {
+          "title": "Florette's Onecore - All Orders Menu",
+          "category": "desktop",
+          "image": "assets/img/sad3.jpg",
+          "desc" : "The All Orders menu in Florette's Onecore UMKM desktop application serves as a comprehensive repository of order history, providing users with a detailed overview of past transactions. This feature enables users to effortlessly navigate through their order history and filter by specific timeframes, such as weeks or months, facilitating efficient data analysis and decision-making."
+        },
+        {
+          "title": "POS Restaurant - Home Page",
+          "category": "desktop",
+          "image": "assets/img/pos1.jpg",
+          "desc" : "The Order Page of POS Restaurant desktop application serves as the central hub for processing customer orders with efficiency and accuracy. Tailored for seamless interaction, this intuitive interface allows cashiers to input and manage orders swiftly, ensuring smooth operations during peak hours. With categorized food items, users can easily filter through the menu to locate specific dishes, streamlining the ordering process and minimizing errors."
+        },
+        {
+          "title": "POS Restaurant - Customer Page",
+          "category": "desktop",
+          "image": "assets/img/pos2.jpg",
+          "desc" : "The Customer page in the POS Restaurant desktop application serves as a centralized hub for managing customer relationships and transactions. Within this interface, restaurant staff can access comprehensive customer profiles containing essential information such as name, email, and phone number. Additionally, the page provides a detailed transaction history for each customer, enabling staff to track their purchasing behavior and preferences over time."
+        },
+        {
+          "title": "POS Restaurant - Orders Page",
+          "category": "desktop",
+          "image": "assets/img/pos3.jpg",
+          "desc" : "The Orders page in our POS Restaurant desktop application offers a comprehensive view of both offline and online order history, providing restaurateurs with essential insights into their business operations. This feature serves as a centralized hub for accessing detailed information about each order, including itemized lists, quantities, and prices."
+        }
+      ]
+    }
+  </script>
+
+  <script>
+    var portfolioData = JSON.parse(document.getElementById('portfolio-data').textContent);
+    
+    function generatePortfolioItem(item) {
+      return `
+        <div class="col-lg-4 col-md-6 portfolio-item filter-${item.category.toLowerCase()}">
+          <div class="portfolio-wrap">
+            <img src="${item.image}" class="img-fluid" alt="${item.title}"  >
+            <div class="portfolio-info">
+              <h4>${item.title}</h4>
+              <p>${item.category}</p>
+            </div>
+            <div class="portfolio-links">
+              <a href="${item.image}" data-gallery="portfolioGallery" class="portfolio-lightbox" title="${item.title}" data-description="${item.desc}" ><i class="bx bx-plus"></i></a>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    var portfolioContainer = document.getElementById('portfolio-container');
+    portfolioData.portfolio.forEach(function(item) {
+      portfolioContainer.innerHTML += generatePortfolioItem(item);
+    });
+
+    
+  </script>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
